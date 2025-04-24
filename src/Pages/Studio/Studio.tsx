@@ -9,16 +9,12 @@ const Studio: React.FC = () => {
         <Header />
         <Navbar />
         <div className="row">
-          <div className="col-lg-12 d-flex justify-content-center mt-5 pt-5">
-            <img
-              src={StudioImage}
-              alt="chi-siamo-image"
-              className="img-chi-siamo"
-            />
+          <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center mt-5 pt-5">
+            <img src={StudioImage} alt="chi-siamo-image" />
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-12 p-5">
+          <div className="col-sm-12 col-md-12 col-lg-12 p-5">
             <h3>STUDIO</h3>
 
             <p>

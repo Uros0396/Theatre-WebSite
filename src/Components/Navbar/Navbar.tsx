@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar: React.FC = () => {
   return (
     <nav className="row">
-      <div className="col-lg-6">
-        <ul className="d-flex justify-content-center align-items-center list-unstyled gap-3 mt-3">
+      <div className="col-sm-12 col-md-12 col-lg-6">
+        <ul className="navbar-links d-flex justify-content-center align-items-center list-unstyled gap-3 mt-3">
           <Link className="text-decoration-none" to={"/ChiSiamo"}>
             chi siamo
           </Link>

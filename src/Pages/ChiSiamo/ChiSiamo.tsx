@@ -10,7 +10,7 @@ const ChiSiamo: React.FC = () => {
         <Header />
         <Navbar />
         <div className="row">
-          <div className="col-lg-12 d-flex justify-content-center">
+          <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center">
             <img
               src={ChiSiamoImage}
               alt="chi-siamo-image"
@@ -19,7 +19,7 @@ const ChiSiamo: React.FC = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-12 p-5">
+          <div className="col-sm-12 col-md-12 col-lg-12 p-2 p-md-5 p-lg-5">
             <h3>NOME DELLA COMPAGNIA</h3>
             <p>Autore/i</p>
             <p>

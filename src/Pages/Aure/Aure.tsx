@@ -9,8 +9,8 @@ const Aure: React.FC = () => {
         <Header />
         <Navbar />
         <div className="row">
-          <div className="col-lg-12 text-center mt-5 p-5">
-            <p className="p-5 m-5 text-start">
+          <div className="col-sm-12 col-md-12 col-lg-12 text-center mt-5 p-md-5 p-lg-5 p-2">
+            <p className="p-0 m-0 p-md-4 m-md-4 p-lg-4 m-lg-4 text-start p-sm-0 m-sm-0">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
               nobis magni minima ex rem dignissimos perspiciatis asperiores
               explicabo iste tempore reiciendis recusandae, at fugit est laborum
