@@ -10,7 +10,11 @@ const Studio: React.FC = () => {
         <Navbar />
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center mt-5 pt-5">
-            <img src={StudioImage} alt="chi-siamo-image" />
+            <img
+              src={StudioImage}
+              alt="chi-siamo-image"
+              className="img-chi-siamo"
+            />
           </div>
         </div>
         <div className="row">

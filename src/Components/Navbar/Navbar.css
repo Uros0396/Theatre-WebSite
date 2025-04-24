@@ -1,22 +1,21 @@
 @media (max-width: 576px) {
-  /* Modifica solo il navbar-container */
   .navbar-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra gli elementi */
+    align-items: center;
   }
 
   .navbar-links {
     padding: 0;
-    text-align: center; /* Centra i link */
-    width: 100%; /* Fa sì che l'ul occupi tutta la larghezza */
+    text-align: center;
+    width: 100%;
   }
 
   .navbar-links a {
-    padding: 10px 0; /* Aggiungi un po' di padding per ogni link */
+    padding: 10px 0;
   }
 
   .col-sm-12 {
-    width: 100%; /* Fa sì che le colonne si allarghino su schermi piccoli */
+    width: 100%;
   }
 }
