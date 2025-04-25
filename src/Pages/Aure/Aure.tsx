@@ -8,7 +8,7 @@ const Aure: React.FC = () => {
       <div className="container-fluid">
         <Header />
         <Navbar />
-        <div className="row">
+        <div className="row align-items-center">
           <div className="col-sm-12 col-md-12 col-lg-12 text-center mt-5 p-md-5 p-lg-5 p-2">
             <p className="p-0 m-0 p-md-4 m-md-4 p-lg-4 m-lg-4 text-start p-sm-0 m-sm-0">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
