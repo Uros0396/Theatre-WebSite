@@ -9,28 +9,44 @@ const Lavori: React.FC = () => {
       <Header />
       <Navbar />
       <div className="container-fluid">
-        <div className="row row-lavori mx-auto">
-          <div className="col-sm-12 col-md-6 col-lg-6 p-5">
-            <div className="card shadow lavori-col">
-              <img src={LavoriImage} alt="" className="img-top" />
+        <div className="row justify-content-center mb-4">
+          <div className="col-sm-12 col-md-6 col-lg-6 mb-4 lavori-col">
+            <div className="card shadow">
+              <img
+                src={LavoriImage}
+                alt="immagine-locandina1"
+                className="img-top"
+              />
               <div className="text-center mt-3">Titolo Locandina 1</div>
             </div>
           </div>
-          <div className="col-sm-12 col-md-6 col-lg-6 p-5">
-            <div className="card shadow lavori-col">
-              <img src={LavoriImage} alt="" className="img-top" />
+          <div className="col-sm-12 col-md-6 col-lg-6 mb-4 lavori-col">
+            <div className="card shadow">
+              <img
+                src={LavoriImage}
+                alt="immagine-locandina2"
+                className="img-top"
+              />
               <div className="text-center mt-3">Titolo Locandina 2</div>
             </div>
           </div>
-          <div className="col-sm-12 col-md-6 col-lg-6 p-5">
-            <div className="card shadow lavori-col">
-              <img src={LavoriImage} alt="" className="img-top" />
+          <div className="col-sm-12 col-md-6 col-lg-6 mb-5 lavori-col">
+            <div className="card shadow">
+              <img
+                src={LavoriImage}
+                alt="immagine-locandina3"
+                className="img-top"
+              />
               <div className="text-center mt-3">Titolo Locandina 3</div>
             </div>
           </div>
-          <div className="col-sm-12 col-md-6 col-lg-6 p-5">
-            <div className="card shadow lavori-col">
-              <img src={LavoriImage} alt="" className="img-top" />
+          <div className="col-sm-12 col-md-6 col-lg-6 mb-5 lavori-col">
+            <div className="card shadow">
+              <img
+                src={LavoriImage}
+                alt="immagine-locandina4"
+                className="img-top"
+              />
               <div className="text-center mt-3">Titolo Locandina 4</div>
             </div>
           </div>

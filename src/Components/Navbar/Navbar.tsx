@@ -1,33 +1,35 @@
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { useTranslation } from "react-i18next";
 
 const Navbar: React.FC = () => {
+  const { i18n, t } = useTranslation();
   return (
     <nav className="row">
       <div className="col-sm-12 col-md-12 col-lg-6">
         <ul className="navbar-links d-flex justify-content-center align-items-center list-unstyled gap-3 mt-3">
           <Link className="text-decoration-none" to={"/ChiSiamo"}>
-            chi siamo
+            {t("links.link1")}
           </Link>
 
           <Link className="text-decoration-none" to={"/Lavori"}>
-            lavori
+            {t("links.link2")}
           </Link>
 
           <Link className="text-decoration-none" to={"/Studio"}>
-            studio
+            {t("links.link3")}
           </Link>
 
           <Link className="text-decoration-none" to={"/Aure"}>
-            aure
+            {t("links.link4")}
           </Link>
 
           <Link className="text-decoration-none" to={"/Contatti"}>
-            contatti
+            {t("links.link5")}
           </Link>
 
           <Link className="text-decoration-none" to={"/Supportaci"}>
-            supportaci
+            {t("links.link6")}
           </Link>
         </ul>
       </div>
@@ -44,7 +46,8 @@ const Navbar: React.FC = () => {
             fontSize: "16px",
             cursor: "pointer",
           }}
-          defaultValue={"en"}
+          defaultValue={i18n.language}
+          onChange={(e) => i18n.changeLanguage(e.target.value)}
         >
           <option value="en">EN</option>
           <option value="it">IT</option>
