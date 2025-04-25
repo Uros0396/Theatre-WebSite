@@ -8,7 +8,7 @@ const Supportaci: React.FC = () => {
         <Header />
         <Navbar />
         <div className="row text-center">
-          <div className="col-lg-12 mt-5">
+          <div className="col-sm-12 col-md-12 col-lg-12 mt-5">
             <p>
               Qua ci sara' l' IBAN se ho capito bene? e altre cose che mi
               spiegherai
