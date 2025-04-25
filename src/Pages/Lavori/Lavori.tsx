@@ -6,9 +6,9 @@ import "./Lavori.css";
 const Lavori: React.FC = () => {
   return (
     <>
-      <Header />
-      <Navbar />
       <div className="container-fluid">
+        <Header />
+        <Navbar />
         <div className="row justify-content-center mb-4">
           <div className="col-sm-12 col-md-6 col-lg-6 mb-4 lavori-col">
             <div className="card shadow">
