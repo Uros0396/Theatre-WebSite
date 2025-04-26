@@ -6,7 +6,6 @@ import Lavori from "./Pages/Lavori/Lavori";
 import Studio from "./Pages/Studio/Studio";
 import Aure from "./Pages/Aure/Aure";
 import Contatti from "./Pages/Contatti/Contatti";
-import Supportaci from "./Pages/Supportaci/Supportaci";
 
 const App: React.FC = () => {
   return (
@@ -18,7 +17,6 @@ const App: React.FC = () => {
         <Route path="/Studio" element={<Studio />} />
         <Route path="/Aure" element={<Aure />} />
         <Route path="/Contatti" element={<Contatti />} />
-        <Route path="/Supportaci" element={<Supportaci />} />
       </Routes>
     </BrowserRouter>
   );
