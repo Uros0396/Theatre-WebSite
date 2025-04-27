@@ -115,6 +115,22 @@ const Navbar: React.FC = () => {
               {t("links.link5")}
             </Link>
           </ul>
+          <select
+            className="d-lg-none mt-3"
+            style={{
+              appearance: "none",
+              background: "none",
+              border: "none",
+              padding: "5px",
+              fontSize: "16px",
+              cursor: "pointer",
+            }}
+            defaultValue={i18n.language}
+            onChange={(e) => i18n.changeLanguage(e.target.value)}
+          >
+            <option value="en">EN</option>
+            <option value="it">IT</option>
+          </select>
         </div>
       )}
     </>
