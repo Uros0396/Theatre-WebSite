@@ -69,8 +69,8 @@ const Navbar: React.FC = () => {
             defaultValue={i18n.language}
             onChange={(e) => i18n.changeLanguage(e.target.value)}
           >
-            <option value="en">EN</option>
             <option value="it">IT</option>
+            <option value="en">EN</option>
           </select>
         </div>
       </nav>
