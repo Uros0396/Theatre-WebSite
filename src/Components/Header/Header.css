@@ -1,22 +1,17 @@
-/* Header.css */
-
-/* Contenitore logo */
 .logo-wrapper {
-  height: 80px; /* Altezza navbar fissa */
+  height: 80px;
   display: flex;
   align-items: center;
 }
 
-/* Stile testo PRIMO AMORE */
 .logo-text {
   font-size: 28px;
   height: 60px;
   display: flex;
   align-items: center;
-  padding-top: 5px; /* Compensa per centrare bene come immagine */
+  padding-top: 5px;
 }
 
-/* Immagine logo */
 .logoImgNav {
   height: 60px;
   width: auto;

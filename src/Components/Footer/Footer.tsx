@@ -1,6 +1,6 @@
 const Footer: React.FC = () => {
   return (
-    <div className="row pb-4">
+    <div className="row pb-5">
       <div className="col-lg-4 w-25">
         <strong>
           <a href="https://www.instagram.com/primoamore_performingart/">

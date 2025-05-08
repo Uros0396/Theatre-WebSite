@@ -2,3 +2,8 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.image-contacts {
+  width: 14rem;
+  max-height: 7rem;
+}

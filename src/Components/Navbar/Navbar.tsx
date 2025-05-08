@@ -15,7 +15,6 @@ const Navbar: React.FC = () => {
     setIsMenuOpen((prev) => !prev);
   };
 
-  // Funzione per determinare se un link è attivo
   const isActive = (path: string) => location.pathname === path;
 
   return (
@@ -42,7 +41,6 @@ const Navbar: React.FC = () => {
         </button>
       </div>
 
-      {/* NAVBAR CLASSICA SOLO DESKTOP */}
       <nav
         className={`row d-none d-lg-flex justify-content-end align-items-center ${
           isHomePage ? "pt-0" : ""
@@ -111,7 +109,6 @@ const Navbar: React.FC = () => {
         </div>
       </nav>
 
-      {/* MOBILE MENU OVERLAY */}
       {isMenuOpen && (
         <div>
           <div className="mobile-menu-overlay">

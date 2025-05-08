@@ -1,33 +1,45 @@
 import Navbar from "../../Components/Navbar/Navbar";
 import brochurePDF from "../../../public/pr.nj.pdf";
+import AureImage from "../../assets/4. AURE BANNER.png";
+import Footer from "../../Components/Footer/Footer";
 
 const Aure: React.FC = () => {
   return (
     <>
       <div className="container-fluid">
         <Navbar />
-        <div className="row align-items-center">
-          <div className="col-sm-12 col-md-12 col-lg-12 text-center mt-5 p-md-5 p-lg-5 p-2">
-            <p className="p-0 m-0 p-md-4 m-md-4 p-lg-4 m-lg-4 text-start p-sm-0 m-sm-0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-              nobis magni minima ex rem dignissimos perspiciatis asperiores
-              explicabo iste tempore reiciendis recusandae, at fugit est laborum
-              vitae consectetur eos illum delectus rerum quo perferendis,
-              necessitatibus qui. Adipisci ex veniam omnis esse! Illum possimus
-              modi voluptates quasi et aspernatur, perspiciatis consectetur
-              impedit fuga sapiente minus suscipit cupiditate neque eius
-              recusandae? Recusandae nam eligendi sit cumque, reprehenderit
-              maxime deserunt distinctio fuga ea quasi vitae, saepe
-              necessitatibus adipisci praesentium laboriosam culpa nobis ex
-              dolorem ratione cupiditate officiis animi. Asperiores
-              exercitationem facere temporibus. Cum, eligendi quod suscipit
-              dolorum officia facere. Quasi dolor voluptatum incidunt!
+      </div>
+
+      <div className="img-wrapper-chi-siamo">
+        <img src={AureImage} alt="chi-siamo-image" className="img-chi-siamo" />
+      </div>
+
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-sm-12 col-md-12 col-lg-5 p-2 p-md-5 p-lg-5">
+            <h4>AURE</h4>
+          </div>
+          <div className="col-sm-12 col-md-12 col-lg-7 p-2 p-md-5 p-lg-5">
+            <p>
+              Aure è un programma indipendente di ricerca artistica. Si
+              incastona nel corpo fisico di Spazio Zephiro. Aure diventa rituale
+              amoroso tra persone, materiali, spazi e azzardi stilistici.
             </p>
-            <a href={brochurePDF} download className="btn btn-primary">
-              Scarica il PDF
+            <p>Il tema dell’edizione 2025 è CARNE VIVA.</p>
+            <p>
+              Foto e comunicazione: Giulio Favotto insieme ad Anna Gioia Perusin{" "}
+            </p>
+            <a
+              href={brochurePDF}
+              download
+              className="text-danger text-decoration-underline"
+            >
+              <h5 className="text-danger">LINK AL PROGRAMMA</h5>
             </a>
           </div>
         </div>
+
+        <Footer />
       </div>
     </>
   );

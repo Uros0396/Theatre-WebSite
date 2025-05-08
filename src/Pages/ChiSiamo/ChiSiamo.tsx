@@ -6,12 +6,10 @@ import "./ChiSiamo.css";
 const ChiSiamo: React.FC = () => {
   return (
     <>
-      {/* NAVBAR (resta nel container-fluid) */}
       <div className="container-fluid">
         <Navbar />
       </div>
 
-      {/* IMMAGINE FUORI - FULL WIDTH */}
       <div className="img-wrapper-chi-siamo">
         <img
           src={ChiSiamoImage}
@@ -20,7 +18,6 @@ const ChiSiamo: React.FC = () => {
         />
       </div>
 
-      {/* CONTENUTO TESTO */}
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-5 p-2 p-md-5 p-lg-5">

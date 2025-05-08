@@ -1,4 +1,4 @@
-import logoNavbarLinks from "../../assets/logo (1).jpg";
+import logoNavbarLinks from "../../assets/logo trasparente (1) (1).png";
 import "./LogoImg.css";
 
 const LogoImg: React.FC = () => {
