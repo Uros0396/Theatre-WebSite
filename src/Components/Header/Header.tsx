@@ -1,17 +1,20 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Header.css";
+import LogoImg from "../LogoImg/LogoImg";
 
 const Header: React.FC = () => {
+  const location = useLocation();
+  const isHome = location.pathname === "/";
+
   return (
-    <>
-      <header className="row">
-        <div className="col-sm-12 col-md-12 col-lg-12">
-          <Link className="text-decoration-none text-black" to={"/"}>
-            <h4 className="logo mt-5 pt-4">LOGO</h4>
-          </Link>
-        </div>
-      </header>
-    </>
+    <div className="col-sm-12 col-md-12 col-lg-6 logo-wrapper">
+      <Link
+        className="text-decoration-none text-black d-flex align-items-center"
+        to={"/"}
+      >
+        {isHome ? <span className="logo-text">PRIMO AMORE</span> : <LogoImg />}
+      </Link>
+    </div>
   );
 };
 

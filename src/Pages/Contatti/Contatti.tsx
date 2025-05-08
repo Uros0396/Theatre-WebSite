@@ -1,4 +1,3 @@
-import Header from "../../Components/Header/Header";
 import Navbar from "../../Components/Navbar/Navbar";
 import "./Contatti.css";
 
@@ -6,7 +5,6 @@ const Contatti: React.FC = () => {
   return (
     <>
       <div className="container-fluid">
-        <Header />
         <Navbar />
         <div className="row text-center">
           <div className="col-sm-12 col-md-12 col-lg-12 d-flex flex-column mt-5">

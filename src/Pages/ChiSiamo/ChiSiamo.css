@@ -1,6 +1,21 @@
+.img-wrapper-chi-siamo {
+  width: 100;
+  margin-left: calc(-50vw + 50%);
+  overflow-x: hidden;
+}
+
 .img-chi-siamo {
   width: 100%;
-  height: auto;
-  max-height: 20rem;
+  max-height: 30rem;
   object-fit: cover;
+  display: block;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid black;
+  width: 120%;
+  margin: 1rem 0;
+  position: relative;
+  left: -14%;
 }

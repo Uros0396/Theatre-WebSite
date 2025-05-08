@@ -1,4 +1,3 @@
-import Header from "../../Components/Header/Header";
 import Navbar from "../../Components/Navbar/Navbar";
 import LavoriImage from "../../assets/pulpFiction.jpg";
 import "./Lavori.css";
@@ -7,7 +6,6 @@ const Lavori: React.FC = () => {
   return (
     <>
       <div className="container-fluid">
-        <Header />
         <Navbar />
         <div className="row justify-content-center mb-4">
           <div className="col-sm-12 col-md-6 col-lg-6 mb-4 lavori-col">

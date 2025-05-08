@@ -1,4 +1,3 @@
-import Header from "../../Components/Header/Header";
 import Navbar from "../../Components/Navbar/Navbar";
 import brochurePDF from "../../../public/pr.nj.pdf";
 
@@ -6,7 +5,6 @@ const Aure: React.FC = () => {
   return (
     <>
       <div className="container-fluid">
-        <Header />
         <Navbar />
         <div className="row align-items-center">
           <div className="col-sm-12 col-md-12 col-lg-12 text-center mt-5 p-md-5 p-lg-5 p-2">

@@ -1,4 +1,3 @@
-import Header from "../../Components/Header/Header";
 import Navbar from "../../Components/Navbar/Navbar";
 import StudioImage from "../../assets/studioTeatrale.jpg";
 
@@ -6,7 +5,6 @@ const Studio: React.FC = () => {
   return (
     <>
       <div className="container-fluid">
-        <Header />
         <Navbar />
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center mt-5 pt-5">

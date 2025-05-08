@@ -1,3 +1,14 @@
+.color-li {
+  color: gray;
+}
+
+.color-li:hover {
+  color: black;
+}
+
+.color-li.active {
+  color: black;
+}
 @media (max-width: 576px) {
   .navbar-container {
     display: flex;
