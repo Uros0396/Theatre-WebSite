@@ -10,11 +10,29 @@ a {
   margin-top: 15px;
 }
 
+/* Evita overflow su tutta la pagina */
+body {
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  overflow-x: hidden;
+}
+
+/* Stile mobile */
 @media (max-width: 991px) {
   .contatti {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     flex-wrap: wrap;
     padding: 10px;
-    overflow-x: hidden;
+  }
+
+  /* Entrambi i blocchi diventano full width */
+  .contatti > div {
+    width: 100% !important;
+    margin: 0 !important;
   }
 
   .supportaci {
