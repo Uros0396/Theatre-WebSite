@@ -11,19 +11,20 @@ const Lavori: React.FC = () => {
     <>
       <div className="container-fluid">
         <Navbar />
-        <div className="row g-5">
-          <div className="col-lg-2 pt-5">
+      </div>
+      <div className="container-fluid">
+        <div className="row g-1 mt-5">
+          <div className="col-sm-12 col-md-6 col-lg-2 pt-4">
             <h5>CARMEN</h5>
-            <p>
-              {" "}
+            <p className="text-secondary">
               performance divisa in due parti indipendenti, a partire dal
               romanzo Non lasciarmi di Ishiguro ed altri pezzi di letteratura,
               che costruisce un percorso sul tema della morte e del trauma della
               malattia
             </p>
           </div>
-          <div className="col-lg-5 p-4">
-            {" "}
+
+          <div className="col-sm-12 col-md-6 col-lg-5 p-4 lavori-image">
             <img
               src={LavoriImage1}
               alt="immagine-locandina1"
@@ -31,38 +32,39 @@ const Lavori: React.FC = () => {
             />
             <div className="mt-4">
               <h6>HAILSHAM</h6>
-              <p>
+              <p className="text-secondary">
                 <small>Parte 1 / performance in silenzio</small>
               </p>
             </div>
           </div>
-          <div className="col-lg-5 p-4">
-            {" "}
+
+          <div className="col-sm-12 col-md-6 col-lg-5 p-4 lavori-image">
             <img
               src={LavoriImage2}
-              alt="immagine-locandina1"
+              alt="immagine-locandina2"
               className="img-top"
             />
             <div className="mt-4">
-              <h6> CARMEN</h6>
-              <p>
+              <h6>CARMEN</h6>
+              <p className="text-secondary">
                 <small>Parte 2 / suono + voce</small>
               </p>
             </div>
           </div>
         </div>
-        <div className="row g-5 mb-5 pb-5">
-          <div className="col-lg-2 d-sm-none d-lg-block pt-5"></div>
-          <div className="col-lg-5 p-4">
-            {" "}
+
+        <div className="row g-1 mb-5 pb-5">
+          <div className="col-sm-12 col-md-6 col-lg-2 pt-4"></div>
+
+          <div className="col-sm-12 col-md-6 col-lg-5 p-4 lavori-image">
             <img
               src={LavoriImage3}
-              alt="immagine-locandina1"
+              alt="immagine-locandina3"
               className="img-top"
             />
             <div className="mt-4">
-              <h6> LIBERTÀ</h6>
-              <p>
+              <h6>LIBERTÀ</h6>
+              <p className="text-secondary">
                 <small>
                   performance / installazione sull’amore realizzata con il
                   materiale di 8 anni di laboratori e interviste <br />
@@ -71,21 +73,22 @@ const Lavori: React.FC = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-5 p-4">
-            {" "}
+
+          <div className="col-sm-12 col-md-6 col-lg-5 p-4 lavori-image">
             <img
               src={LavoriImage4}
-              alt="immagine-locandina1"
+              alt="immagine-locandina4"
               className="img-top"
             />
             <div className="mt-4">
-              <h6> CUCINA</h6>
-              <p>
-                <small>progetto di teatro-danza </small>
+              <h6>CUCINA</h6>
+              <p className="text-secondary">
+                <small>progetto di teatro-danza</small>
               </p>
             </div>
           </div>
         </div>
+
         <Footer />
       </div>
     </>

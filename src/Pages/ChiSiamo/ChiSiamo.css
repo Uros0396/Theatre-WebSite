@@ -1,5 +1,12 @@
+.container-fluid {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .img-wrapper-chi-siamo {
-  width: 100;
+  width: 100%;
   margin-left: calc(-50vw + 50%);
   overflow-x: hidden;
 }
@@ -11,11 +18,25 @@
   display: block;
 }
 
+/* hr base: mobile e tablet */
 hr {
   border: none;
   border-top: 2px solid black;
-  width: 120%;
+  width: 100%;
   margin: 1rem 0;
   position: relative;
-  left: -14%;
+  left: 0;
+}
+
+/* hr solo per desktop */
+@media (min-width: 992px) {
+  hr {
+    width: 120%;
+    left: -14%;
+  }
+}
+
+/* Evitare scroll orizzontale globale */
+body {
+  overflow-x: hidden;
 }

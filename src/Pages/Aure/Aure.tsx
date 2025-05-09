@@ -1,5 +1,5 @@
 import Navbar from "../../Components/Navbar/Navbar";
-import brochurePDF from "../../../public/pr.nj.pdf";
+
 import AureImage from "../../assets/4. AURE BANNER.png";
 import Footer from "../../Components/Footer/Footer";
 
@@ -30,7 +30,7 @@ const Aure: React.FC = () => {
               Foto e comunicazione: Giulio Favotto insieme ad Anna Gioia Perusin{" "}
             </p>
             <a
-              href={brochurePDF}
+              href="/pr.nj.pdf"
               download
               className="text-danger text-decoration-underline"
             >

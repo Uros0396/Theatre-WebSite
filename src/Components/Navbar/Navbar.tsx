@@ -48,7 +48,7 @@ const Navbar: React.FC = () => {
       >
         <Header />
         <div className="col-sm-12 col-md-12 col-lg-6 d-flex justify-content-end align-items-center mt-3">
-          <ul className="navbar-links d-flex justify-content-center align-items-center list-unstyled gap-4">
+          <ul className="navbar-links d-flex justify-content-center align-items-center list-unstyled gap-5">
             <Link
               className={`text-decoration-none color-li ${
                 isActive("/ChiSiamo") ? "active" : ""

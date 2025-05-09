@@ -17,22 +17,36 @@ const Contatti: React.FC = () => {
           </div>
           <div className="col-sm-12 col-md-12 col-lg-7 p-2 p-md-5 p-lg-5">
             <div className="d-flex justify-content-between">
-              <div className="d-flex flex-column w-50 me-5">
+              <div className="d-flex flex-column w-50 me-2 text-secondary">
                 <p>Laboratorio e Produzioni </p>
-                <a href="primoamoreperformingart@gmail.com">
+                <a
+                  href="mailto:primoamoreperformingart@gmail.com"
+                  className="text-secondary"
+                >
                   primoamoreperformingart@gmail.com
                 </a>
 
-                <a href="https://www.instagram.com/primoamore_performingart/">
+                <a
+                  href="https://www.instagram.com/primoamore_performingart/"
+                  className="text-secondary"
+                >
                   ig @primoamore_performingart
                 </a>
               </div>
-              <div className="d-flex flex-column w-50 ms-5">
-                <p>Distribuzione - Giulia Bellentani </p>
-                <a href=" giuliabellentani.primoamore@gmail.com">
+              <div className="d-flex flex-column w-50 ms-2">
+                <p className="text-secondary">
+                  Distribuzione - Giulia Bellentani{" "}
+                </p>
+                <a
+                  href=" giuliabellentani.primoamore@gmail.com"
+                  className="text-secondary"
+                >
                   giuliabellentani.primoamore@gmail.com
                 </a>
-                <a href="https://www.facebook.com/primoamoreperformingarts?locale=it_IT">
+                <a
+                  href="https://www.facebook.com/primoamoreperformingarts?locale=it_IT"
+                  className="text-secondary"
+                >
                   fb primoamoreperformingarts
                 </a>
               </div>

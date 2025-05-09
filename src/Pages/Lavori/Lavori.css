@@ -1,6 +1,15 @@
-.container-fluid {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
+.lavori-image img {
+  max-width: 420px;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (min-width: 992px) {
+  .lavori-image {
+    margin-left: 3rem;
+  }
+}
+
+.lavori-image {
+  margin-left: 0; /* default = nessun margine */
 }
