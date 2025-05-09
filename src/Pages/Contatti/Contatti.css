@@ -4,7 +4,7 @@ a {
 }
 
 .image-contacts {
-  width: 14rem;
+  max-width: 14rem;
   max-height: 7rem;
   margin-right: 40px;
   margin-top: 15px;
@@ -28,5 +28,9 @@ a {
 
   .contacts {
     padding: 10px;
+  }
+
+  .image-contacts {
+    margin-right: 0;
   }
 }

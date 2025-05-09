@@ -51,7 +51,7 @@ const Contatti: React.FC = () => {
                 </a>
               </div>
             </div>
-            <div className="text-center mt-5">
+            <div className="text-center mt-5 immagine">
               <img
                 src={ContactsImage}
                 alt="chi-siamo-image"
