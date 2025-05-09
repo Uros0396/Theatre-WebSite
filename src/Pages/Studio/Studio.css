@@ -1,0 +1,10 @@
+@media (max-width: 991px) {
+  .img-studio {
+    max-height: 200px;
+    width: auto;
+  }
+
+  .testo {
+    padding: 15px;
+  }
+}

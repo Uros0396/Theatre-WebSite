@@ -6,11 +6,11 @@ import "./ChiSiamo.css";
 const ChiSiamo: React.FC = () => {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid mt-4">
         <Navbar />
       </div>
 
-      <div className="img-wrapper-chi-siamo">
+      <div className="img-wrapper-chi-siamo mt-4">
         <img
           src={ChiSiamoImage}
           alt="chi-siamo-image"

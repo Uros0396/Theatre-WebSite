@@ -1,24 +1,21 @@
 import Navbar from "../../Components/Navbar/Navbar";
 import StudioImage from "../../assets/1. STUDIO BANNER.png";
 import Footer from "../../Components/Footer/Footer";
+import "./Studio.css";
 
 const Studio: React.FC = () => {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid mt-4">
         <Navbar />
       </div>
 
-      <div className="img-wrapper-chi-siamo">
-        <img
-          src={StudioImage}
-          alt="chi-siamo-image"
-          className="img-chi-siamo"
-        />
+      <div className="img-wrapper-chi-siamo mt-4">
+        <img src={StudioImage} alt="chi-siamo-image" className="img-studio" />
       </div>
 
       <div className="container-fluid">
-        <div className="row">
+        <div className="row testo">
           <div className="col-sm-12 col-md-12 col-lg-5 p-2 p-md-5 p-lg-5">
             <h4>STUDIO</h4>
           </div>

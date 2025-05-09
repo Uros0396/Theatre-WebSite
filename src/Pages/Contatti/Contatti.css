@@ -6,4 +6,27 @@ a {
 .image-contacts {
   width: 14rem;
   max-height: 7rem;
+  margin-right: 40px;
+  margin-top: 15px;
+}
+
+@media (max-width: 991px) {
+  .contatti {
+    flex-wrap: wrap;
+    padding: 10px;
+    overflow-x: hidden;
+  }
+
+  .supportaci {
+    margin-top: 5rem;
+    margin-left: 10px;
+  }
+
+  .support p {
+    padding: 10px;
+  }
+
+  .contacts {
+    padding: 10px;
+  }
 }

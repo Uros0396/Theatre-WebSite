@@ -1,24 +1,23 @@
 .footer-container {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
+  text-align: left; /* CAMBIATO: tutto parte left */
 }
 
 .footer-item {
   padding: 10px;
-}
-
-.footer-item {
   flex: 1 1 100%;
 }
 
+/* Media Query per desktop */
 @media (min-width: 992px) {
   .footer-container {
-    text-align: left;
+    text-align: initial; /* Rimuove il text-align globale */
   }
 
   .instagram {
     flex: 1 1 25%;
+    text-align: left;
   }
 
   .email {

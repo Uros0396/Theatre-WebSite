@@ -9,12 +9,10 @@ import "./Lavori.css";
 const Lavori: React.FC = () => {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid ciao mt-4">
         <Navbar />
-      </div>
-      <div className="container-fluid">
         <div className="row g-1 mt-5">
-          <div className="col-sm-12 col-md-6 col-lg-2 pt-4">
+          <div className="col-sm-12 col-md-2 col-lg-2 pt-4 salve">
             <h5>CARMEN</h5>
             <p className="text-secondary">
               performance divisa in due parti indipendenti, a partire dal
@@ -24,7 +22,7 @@ const Lavori: React.FC = () => {
             </p>
           </div>
 
-          <div className="col-sm-12 col-md-6 col-lg-5 p-4 lavori-image">
+          <div className="col-sm-12 col-md-5 col-lg-5 p-4 lavori-image">
             <img
               src={LavoriImage1}
               alt="immagine-locandina1"
@@ -38,7 +36,7 @@ const Lavori: React.FC = () => {
             </div>
           </div>
 
-          <div className="col-sm-12 col-md-6 col-lg-5 p-4 lavori-image">
+          <div className="col-sm-12 col-md-5 col-lg-5 p-4 lavori-image">
             <img
               src={LavoriImage2}
               alt="immagine-locandina2"
