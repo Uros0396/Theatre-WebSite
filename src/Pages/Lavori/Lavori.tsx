@@ -5,21 +5,21 @@ import LavoriImage2 from "../../assets/2. WORKS CARMEN.png";
 import LavoriImage3 from "../../assets/3. WORKS LIBERTà.png";
 import LavoriImage4 from "../../assets/4. WORKS CUCINA.png";
 import "./Lavori.css";
+import { useTranslation } from "react-i18next";
 
 const Lavori: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <>
       <div className="container-fluid ciao mt-4">
         <Navbar />
         <div className="row g-1 mt-5">
           <div className="col-sm-12 col-md-2 col-lg-2 pt-4 salve">
-            <h5>CARMEN</h5>
-            <p className="text-secondary">
-              performance divisa in due parti indipendenti, a partire dal
-              romanzo Non lasciarmi di Ishiguro ed altri pezzi di letteratura,
-              che costruisce un percorso sul tema della morte e del trauma della
-              malattia
-            </p>
+            <h5 dangerouslySetInnerHTML={{ __html: t("works.title1") }}></h5>
+            <p
+              dangerouslySetInnerHTML={{ __html: t("works.paragraph1") }}
+              className="text-secondary"
+            ></p>
           </div>
 
           <div className="col-sm-12 col-md-5 col-lg-5 p-4 lavori-image">
@@ -29,9 +29,11 @@ const Lavori: React.FC = () => {
               className="img-top"
             />
             <div className="mt-4">
-              <h6>HAILSHAM</h6>
+              <h6 dangerouslySetInnerHTML={{ __html: t("works.title22") }}></h6>
               <p className="text-secondary">
-                <small>Parte 1 / performance in silenzio</small>
+                <small
+                  dangerouslySetInnerHTML={{ __html: t("works.paragraph2") }}
+                ></small>
               </p>
             </div>
           </div>
@@ -43,9 +45,11 @@ const Lavori: React.FC = () => {
               className="img-top"
             />
             <div className="mt-4">
-              <h6>CARMEN</h6>
+              <h6 dangerouslySetInnerHTML={{ __html: t("works.title3") }}></h6>
               <p className="text-secondary">
-                <small>Parte 2 / suono + voce</small>
+                <small
+                  dangerouslySetInnerHTML={{ __html: t("works.paragraph3") }}
+                ></small>
               </p>
             </div>
           </div>
@@ -61,13 +65,11 @@ const Lavori: React.FC = () => {
               className="img-top"
             />
             <div className="mt-4">
-              <h6>LIBERTÀ</h6>
+              <h6 dangerouslySetInnerHTML={{ __html: t("works.title4") }}></h6>
               <p className="text-secondary">
-                <small>
-                  performance / installazione sull’amore realizzata con il
-                  materiale di 8 anni di laboratori e interviste <br />
-                  di Maria Chiara Pederzini
-                </small>
+                <small
+                  dangerouslySetInnerHTML={{ __html: t("works.paragraph4") }}
+                ></small>
               </p>
             </div>
           </div>
@@ -79,9 +81,11 @@ const Lavori: React.FC = () => {
               className="img-top"
             />
             <div className="mt-4">
-              <h6>CUCINA</h6>
+              <h6 dangerouslySetInnerHTML={{ __html: t("works.title5") }}></h6>
               <p className="text-secondary">
-                <small>progetto di teatro-danza</small>
+                <small
+                  dangerouslySetInnerHTML={{ __html: t("works.paragraph5") }}
+                ></small>
               </p>
             </div>
           </div>
