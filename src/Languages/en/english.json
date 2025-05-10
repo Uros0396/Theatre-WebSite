@@ -6,5 +6,67 @@
     "link4": "AURE",
     "link5": "contacts",
     "link6": "support us"
+  },
+
+  "about": {
+    "title1": "ABOUT",
+    "title2": "BIO",
+    "paragraph1": "We are a multidisciplinary artistic collective. Our research spans theatre, performance, and installation, extending to visual works, collective investigations, field research, gathering of testimonies, and archival work.",
+    "paragraph2": "Maria Chiara Pederzini, with Nicola Andretta, Giulia Bellentani, Rita Bosello, Anna Briotto, Sofia Carlesso, Beatrice Centenaro, Emiliano Daniel, Stefano Lattanzio, Alice Spisa.",
+    "paragraph3": "<strong>2025</strong> Carmen is in residence at DAS Collagene <br />residency at Nidoramai by Alessandro and Chiara Businaro <br />guest at La Conigliera of Anagoor",
+    "paragraph4": "<strong>2024</strong> wins the CURA 2024 grant <br />presents a public opening at Caracol Vicenza",
+    "paragraph5": "<strong>2019 - 2024</strong> Libertà (exercises), in progress <br />in residence at DAS Collagene <br />presents a fragment of the work-in-progress at Triennale Milano within the project <br />Nascondere by Romeo Castellucci <br />OTSE by Pietro Valenti (former director of ERT), Melpignano, Lecce <br />DRUŠTVENI CENTAR ROJC Pula, Croatia, C3 (VR) <br />Akasa Cittadella (PD) <br />in residence at LEMMING, Rovigo <br />at Parterre Tremonti di Sotto (PN) <br />at La Piccionaia <br />at Fabbrica del Vapore together with Fattoria Vittadini",
+    "paragraph6": "<strong>2019 - 2024</strong> Black Holes premieres for TSV at Teatro delle Maddalene with the collaboration of the Neurology Department of Padua Hospital, where <br />it presents several public openings",
+    "paragraph7": "<strong>2019</strong> Cucina, in residence with La Piccionaia",
+    "paragraph8": "<strong>2017</strong> Furore, inspired by Steinbeck’s novel, is among the six projects selected for <br />Biennale Teatro by Antonio Latella"
+  },
+
+  "works": {
+    "title1": "CARMEN",
+    "title2": "HAILSHAM",
+    "title3": "CARMEN",
+    "title4": "LIBERTÀ",
+    "title5": "CUCINA",
+    "paragraph1": "performance divided into two independent parts, starting from Ishiguro’s novel Never Let Me Go and other literary works, constructing a path on the theme of death and the trauma of illness",
+    "paragraph2": "Part 1 / silent performance",
+    "paragraph3": "Part 2 / sound + voice",
+    "paragraph4": "performance / installation on love, created with material from 8 years of workshops and interviews <br /> by Maria Chiara Pederzini",
+    "paragraph5": "theatre-dance project"
+  },
+
+  "studio": {
+    "title1": "STUDIO",
+    "title2": "WORKSHOPS",
+    "paragraph1": "Our productions are interconnected through symbolic elements in an artistic narrative that delves into recurring themes: home, memory, family, childhood, the body, loss, death, emptiness. The memory of families and our childhood, of traumas, ancestors, places, and objects that recall them, inhabit the stage or exhibition space. The idea is born from a photograph taken with the old Minolta of the grandfather, or from a novel. Fairy tales, poems, and classical themes convey a timeless feeling to our original dramaturgies. Image, word, and sound converge in live-sets or audiovisual recordings. We are working transversally on performances and site-specific projects.",
+    "paragraph2": "Our technical work focuses on the design of feelings and sensations, to create atmospheres through the combination of materials and contrasts, alternating objects, bodies, and surfaces. Syntheses emerge late from roundtables, translating conceptual and sensitive analyses into more abstract, illogical visions. Imagined creatures and childish elements merge with the brutality of reality and reflections on contemporaneity. While our works may be raw in their attempt to represent the most controversial aspects of the present, they are imbued with the emotional weight of our stories and those of the people we meet. We listen and observe. We collect interviews, and experiences in the rehearsal room from which we preserve sketches for new projects. When we open our research during workshops, we observe how the body interacts with host spaces, with architectures, blends with matter, and how it changes with the landscape. Philosophy, geopolitics, and science inspire us alongside our ongoing diverse educational backgrounds.",
+    "paragraph3": "Our research is situated in threshold spaces, in the voids left by doubts about new languages. Theatre is a vital part of an open negotiation with the representation of the world. Most of us have a personal history with theatre, which has been questioned together with the passage of time, inscribing theatre among outdated and dead languages. What interests us is finding creative paths beyond the constraints of definition, crossing all disciplines without the moral duty of being up to date. Performance, dance, and photography alone will not extinguish our questions, but they are our practice of freedom. The desire to create is ruthless, and art is our refuge where we can perceive that ruthlessness and indulge the perversion of looking. Looking even at sad things from a sort of free zone. Performance, above all, is the most violent way of looking, because it authorizes projections and creates reality, while working with matter is a meditative exercise. We use all available means for our creations, without imposing formal limits, avoiding categorizations.",
+    "paragraph4": "Libertà 2018 - 2025",
+    "paragraph5": "Dance Dance Dance 2023 - 2024",
+    "paragraph6": "Flowering 2023 - 2024",
+    "paragraph7": "Gymnasium 2024",
+    "paragraph8": "Operating theatre 2023 - 2025",
+    "paragraph9": "MyBodyTales 2025",
+    "paragraph10": "Ombra 2025"
+  },
+
+  "aure": {
+    "title1": "AURE",
+    "title2": "LINK TO THE PROGRAM",
+    "paragraph1": "Aure is an independent artistic research program. It is embedded in the physical body of Spazio Zephiro. Aure becomes a loving ritual between people, materials, spaces, and stylistic risks.",
+    "paragraph2": "The theme of the 2025 edition is RAW FLESH.",
+    "paragraph3": "Photos and communication: Giulio Favotto together with Anna Gioia Perusin"
+  },
+
+  "contacts": {
+    "title1": "CONTACTS",
+    "title2": "SUPPORT US",
+    "paragraph1": "Workshop and Productions",
+    "paragraph2": " primoamoreperformingart@gmail.com",
+    "paragraph3": "ig @primoamore_performingart",
+    "paragraph4": "Distribution - Giulia Bellentani",
+    "paragraph5": "giuliabellentani.primoamore@gmail.com",
+    "paragraph6": "fb primoamoreperformingarts",
+    "paragraph7": "If you believe in our vision, you can support us in many ways — by collaborating, providing equipment, skills, or spaces.",
+    "paragraph8": "By choosing to allocate your 5 per thousand to us by bringing our tax code when you file your tax return, or through a simple donation to the IBAN, which you can deduct or write off."
   }
 }
