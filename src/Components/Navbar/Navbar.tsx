@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import Header from "../Header/Header";
+import LogoImg from "../LogoImg/LogoImg";
 
 const Navbar: React.FC = () => {
   const { i18n, t } = useTranslation();
@@ -42,7 +43,7 @@ const Navbar: React.FC = () => {
       </div>
 
       <nav
-        className={`row d-none d-lg-flex justify-content-end align-items-center ${
+        className={`row d-none d-lg-flex justify-content-end align-items-center ciccia ${
           isHomePage ? "pt-0" : ""
         }`}
       >
@@ -159,22 +160,17 @@ const Navbar: React.FC = () => {
                 {t("links.link5")}
               </Link>
             </ul>
-            <select
-              className="d-lg-none mt-3"
-              style={{
-                appearance: "none",
-                background: "none",
-                border: "none",
-                padding: "5px",
-                fontSize: "16px",
-                cursor: "pointer",
-              }}
-              defaultValue={i18n.language}
-              onChange={(e) => i18n.changeLanguage(e.target.value)}
-            >
-              <option value="en">EN</option>
-              <option value="it">IT</option>
-            </select>
+            <div className="d-lg-none">
+              <Link
+                className={`text-decoration-none fs-3 ${
+                  isActive("/") ? "active" : ""
+                }`}
+                to={"/"}
+                onClick={toggleMenu}
+              >
+                <LogoImg />
+              </Link>
+            </div>
           </div>
           <Header />
         </div>

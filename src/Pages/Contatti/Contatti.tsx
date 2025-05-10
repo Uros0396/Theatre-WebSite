@@ -9,7 +9,6 @@ const Contatti: React.FC = () => {
       <div className="container-fluid mt-4">
         <Navbar />
       </div>
-
       <div className="container-fluid mt-5">
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-5 p-2 p-md-5 p-lg-5">

@@ -9,7 +9,7 @@
 .color-li.active {
   color: black;
 }
-@media (max-width: 576px) {
+@media (max-width: 991px) {
   .navbar-container {
     display: flex;
     flex-direction: column;
@@ -61,4 +61,8 @@
 
 .mobile-menu-overlay a:hover {
   color: grey;
+}
+
+.ciccia {
+  overflow-y: hidden;
 }

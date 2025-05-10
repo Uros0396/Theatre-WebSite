@@ -10,15 +10,6 @@ a {
   margin-top: 15px;
 }
 
-/* Evita overflow su tutta la pagina */
-body {
-  overflow-x: hidden;
-}
-
-.container-fluid {
-  overflow-x: hidden;
-}
-
 /* Stile mobile */
 @media (max-width: 991px) {
   .contatti {
