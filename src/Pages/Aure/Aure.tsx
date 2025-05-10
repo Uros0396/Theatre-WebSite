@@ -30,7 +30,7 @@ const Aure: React.FC = () => {
               Foto e comunicazione: Giulio Favotto insieme ad Anna Gioia Perusin{" "}
             </p>
             <a
-              href="/pr.nj.pdf"
+              href="AURE 25_CARNE VIVA.pdf"
               download
               className="text-danger text-decoration-underline"
             >
