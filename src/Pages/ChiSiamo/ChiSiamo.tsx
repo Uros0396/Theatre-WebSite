@@ -40,15 +40,31 @@ const ChiSiamo: React.FC = () => {
           <div className="col-sm-12 col-md-12 col-lg-7 p-2 p-md-5 p-lg-5 mt-lg-4">
             <p dangerouslySetInnerHTML={{ __html: t("about.paragraph3") }}></p>
             <p dangerouslySetInnerHTML={{ __html: t("about.paragraph4") }}></p>
-            <hr />
+            <div className="div-timeline">
+              <span className="timeline">5</span>
+              <hr />
+            </div>
+
             <p dangerouslySetInnerHTML={{ __html: t("about.paragraph5") }}></p>
-            <hr />
+            <div className="div-timeline">
+              <span className="timeline">4</span>
+              <hr />
+            </div>
             <p dangerouslySetInnerHTML={{ __html: t("about.paragraph5") }}></p>
-            <hr />
+            <div className="div-timeline">
+              <span className="timeline">3</span>
+              <hr />
+            </div>
             <p dangerouslySetInnerHTML={{ __html: t("about.paragraph6") }}></p>
-            <hr />
+            <div className="div-timeline">
+              <span className="timeline">2</span>
+              <hr />
+            </div>
             <p dangerouslySetInnerHTML={{ __html: t("about.paragraph6") }}></p>
-            <hr />
+            <div className="div-timeline">
+              <span className="timeline">1</span>
+              <hr />
+            </div>
           </div>
         </div>
         <Footer />

@@ -32,19 +32,37 @@ const Studio: React.FC = () => {
           <div className="col-sm-12 col-md-12 col-lg-7 p-2 p-md-5 p-lg-5">
             <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph4") }}></p>
             <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph5") }}></p>
-            <hr />
+            <div className="div-timeline">
+              <span className="timeline">1</span>
+              <hr />
+            </div>
             <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph6") }}></p>
-            <hr />
+            <div className="div-timeline">
+              <span className="timeline">2</span>
+              <hr />
+            </div>
             <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph7") }}></p>
-            <hr />
+            <div className="div-timeline">
+              <span className="timeline">3</span>
+              <hr />
+            </div>
             <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph8") }}></p>
-            <hr />
+            <div className="div-timeline">
+              <span className="timeline">4</span>
+              <hr />
+            </div>
             <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph9") }}></p>
-            <hr />
+            <div className="div-timeline">
+              <span className="timeline">5</span>
+              <hr />
+            </div>
             <p
               dangerouslySetInnerHTML={{ __html: t("studio.paragraph10") }}
             ></p>
-            <hr />
+            <div className="div-timeline">
+              <span className="timeline">6</span>
+              <hr />
+            </div>
           </div>
         </div>
         <Footer />
