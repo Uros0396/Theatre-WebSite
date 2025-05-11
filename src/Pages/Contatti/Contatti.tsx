@@ -19,7 +19,7 @@ const Contatti: React.FC = () => {
               dangerouslySetInnerHTML={{ __html: t("contacts.title1") }}
             ></h4>
           </div>
-          <div className="col-sm-12 col-md-12 col-lg-7 p-2 p-md-5 p-lg-5">
+          <div className="col-sm-12 col-md-12 col-lg-7 p-2 p-md-5 p-lg-5 pb-lg-0">
             <div className="d-flex justify-content-between contatti">
               <div className="d-flex flex-column w-50 me-2 text-secondary">
                 <p

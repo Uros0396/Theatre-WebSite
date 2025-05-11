@@ -1,5 +1,5 @@
 .lavori-image img {
-  max-width: 420px;
+  max-width: 400px;
   max-height: auto;
   object-fit: contain;
 }
@@ -12,24 +12,52 @@
 
 @media (max-width: 991px) {
   .ciao {
-    padding-left: 0;
-
-    padding-right: 0;
     overflow-x: hidden;
   }
   .ciao img {
     width: auto;
     max-height: 250px;
-    padding: 10px;
-    margin: 0;
   }
 
   .ciao .mt-4 {
-    padding: 10px;
+    padding: 0;
+    margin-right: 20px;
+    margin-top: 15px !important;
+  }
+
+  .ciaosmall {
+    margin-bottom: 3rem !important;
   }
 
   .salve {
-    padding: 24px;
+    padding-left: 0;
+    margin-bottom: 3rem;
+  }
+
+  .salve p {
+    margin-right: 3rem;
+  }
+  .lavori-image {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .lavori-image img {
+    max-width: 250px;
+    max-height: auto;
+    object-fit: contain;
+  }
+
+  .cranberry {
+    padding-left: 2rem !important;
+  }
+
+  .banane {
+    padding-left: 20px !important;
+  }
+
+  .lavori-image > div {
+    padding-left: 0 !important;
   }
 }
 

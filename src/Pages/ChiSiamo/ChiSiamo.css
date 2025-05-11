@@ -23,14 +23,14 @@ hr {
   border: none;
   border-top: 2px solid rgb(147, 146, 146);
   width: 100%;
-  margin: 1rem 0;
+
   position: relative;
   left: 0;
 }
 
 @media (min-width: 992px) {
   hr {
-    width: 120%;
+    width: 102%;
     left: -14%;
   }
 }

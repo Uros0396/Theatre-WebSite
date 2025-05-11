@@ -29,38 +29,42 @@ const Studio: React.FC = () => {
           <div className="col-sm-12 col-md-12 col-lg-5 p-2 p-md-5 p-lg-5">
             <h4 dangerouslySetInnerHTML={{ __html: t("studio.title2") }}></h4>
           </div>
-          <div className="col-sm-12 col-md-12 col-lg-7 p-2 p-md-5 p-lg-5">
+          <div className="col-sm-12 col-md-12 col-lg-7 p-2 p-md-5 p-lg-5 studio">
             <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph4") }}></p>
-            <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph5") }}></p>
             <div className="div-timeline">
               <span className="timeline">1</span>
               <hr />
             </div>
-            <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph6") }}></p>
+            <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph5") }}></p>
             <div className="div-timeline">
               <span className="timeline">2</span>
               <hr />
             </div>
-            <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph7") }}></p>
+            <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph6") }}></p>
             <div className="div-timeline">
               <span className="timeline">3</span>
               <hr />
             </div>
-            <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph8") }}></p>
+            <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph7") }}></p>
             <div className="div-timeline">
               <span className="timeline">4</span>
               <hr />
             </div>
-            <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph9") }}></p>
+            <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph8") }}></p>
             <div className="div-timeline">
               <span className="timeline">5</span>
+              <hr />
+            </div>
+            <p dangerouslySetInnerHTML={{ __html: t("studio.paragraph9") }}></p>
+            <div className="div-timeline">
+              <span className="timeline">6</span>
               <hr />
             </div>
             <p
               dangerouslySetInnerHTML={{ __html: t("studio.paragraph10") }}
             ></p>
             <div className="div-timeline">
-              <span className="timeline">6</span>
+              <span className="timeline">7</span>
               <hr />
             </div>
           </div>

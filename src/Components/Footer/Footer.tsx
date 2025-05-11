@@ -9,8 +9,6 @@ const Footer: React.FC = () => {
         </a>
       </div>
       <div className="footer-item email">
-        {" "}
-        {/* ← HO TOLTO text-center */}
         <a href="mailto:primoamoreperformingart@gmail.com">
           <small>
             laboratorio e produzioni primoamoreperformingart@gmail.com

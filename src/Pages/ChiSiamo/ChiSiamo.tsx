@@ -23,10 +23,10 @@ const ChiSiamo: React.FC = () => {
 
       <div className="container-fluid">
         <div className="row">
-          <div className="col-sm-12 col-md-12 col-lg-5 p-2 p-md-5 p-lg-5">
+          <div className="col-sm-12 col-md-12 col-lg-5 p-4 p-md-5 p-lg-5">
             <h4 dangerouslySetInnerHTML={{ __html: t("about.title1") }}></h4>
           </div>
-          <div className="col-sm-12 col-md-12 col-lg-7 p-2 p-md-5 p-lg-5 mt-lg-4">
+          <div className="col-sm-12 col-md-12 col-lg-7 p-4 p-md-5 p-lg-4 mt-lg-5">
             <p dangerouslySetInnerHTML={{ __html: t("about.paragraph1") }}></p>
             <p>
               <em
@@ -34,10 +34,13 @@ const ChiSiamo: React.FC = () => {
               ></em>
             </p>
           </div>
-          <div className="col-sm-12 col-md-12 col-lg-5 p-2 p-md-5 p-lg-5">
-            <h4 dangerouslySetInnerHTML={{ __html: t("about.title2") }}></h4>
+          <div className="col-sm-12 col-md-12 col-lg-5 p-4 p-md-5 p-lg-5">
+            <h4
+              dangerouslySetInnerHTML={{ __html: t("about.title2") }}
+              className="pb-2"
+            ></h4>
           </div>
-          <div className="col-sm-12 col-md-12 col-lg-7 p-2 p-md-5 p-lg-5 mt-lg-4">
+          <div className="col-sm-12 col-md-12 col-lg-7 p-4 p-md-5 p-lg-4 mt-lg-4">
             <p dangerouslySetInnerHTML={{ __html: t("about.paragraph3") }}></p>
             <p dangerouslySetInnerHTML={{ __html: t("about.paragraph4") }}></p>
             <div className="div-timeline">
@@ -50,17 +53,17 @@ const ChiSiamo: React.FC = () => {
               <span className="timeline">4</span>
               <hr />
             </div>
-            <p dangerouslySetInnerHTML={{ __html: t("about.paragraph5") }}></p>
+            <p dangerouslySetInnerHTML={{ __html: t("about.paragraph6") }}></p>
             <div className="div-timeline">
               <span className="timeline">3</span>
               <hr />
             </div>
-            <p dangerouslySetInnerHTML={{ __html: t("about.paragraph6") }}></p>
+            <p dangerouslySetInnerHTML={{ __html: t("about.paragraph7") }}></p>
             <div className="div-timeline">
               <span className="timeline">2</span>
               <hr />
             </div>
-            <p dangerouslySetInnerHTML={{ __html: t("about.paragraph6") }}></p>
+            <p dangerouslySetInnerHTML={{ __html: t("about.paragraph8") }}></p>
             <div className="div-timeline">
               <span className="timeline">1</span>
               <hr />
