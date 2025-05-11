@@ -1,6 +1,8 @@
 import "./Footer.css";
+import { useTranslation } from "react-i18next";
 
 const Footer: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <div className="footer-container mt-2 pb-5">
       <div className="footer-item instagram">
@@ -10,9 +12,9 @@ const Footer: React.FC = () => {
       </div>
       <div className="footer-item email">
         <a href="mailto:primoamoreperformingart@gmail.com">
-          <small>
-            laboratorio e produzioni primoamoreperformingart@gmail.com
-          </small>
+          <small
+            dangerouslySetInnerHTML={{ __html: t("footer.title") }}
+          ></small>
         </a>
       </div>
       <div className="footer-item facebook">
