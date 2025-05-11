@@ -29,7 +29,7 @@ const Lavori: React.FC = () => {
               className="img-top"
             />
             <div className="mt-4">
-              <h6 dangerouslySetInnerHTML={{ __html: t("works.title22") }}></h6>
+              <h6 dangerouslySetInnerHTML={{ __html: t("works.title2") }}></h6>
               <p className="text-secondary">
                 <small
                   dangerouslySetInnerHTML={{ __html: t("works.paragraph2") }}
