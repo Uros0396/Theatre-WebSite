@@ -30,7 +30,7 @@ hr {
 
 @media (min-width: 992px) {
   hr {
-    width: 102%;
+    width: 110%;
     left: -14%;
   }
 }

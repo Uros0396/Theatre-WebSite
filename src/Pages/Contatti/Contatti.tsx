@@ -73,6 +73,9 @@ const Contatti: React.FC = () => {
             <p
               dangerouslySetInnerHTML={{ __html: t("contacts.paragraph8") }}
             ></p>
+            <p>PRIMO AMORE</p>
+            <p>IBAN: IT85 E360 9201 6000 2374 4793 515</p>
+            <p>BIC: QNTOITM2XXX</p>
           </div>
         </div>
 
