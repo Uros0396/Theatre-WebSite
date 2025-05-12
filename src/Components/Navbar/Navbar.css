@@ -9,6 +9,7 @@
 .color-li.active {
   color: black;
 }
+
 @media (max-width: 991px) {
   .navbar-container {
     display: flex;
