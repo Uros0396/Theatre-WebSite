@@ -37,7 +37,10 @@ const Navbar: React.FC = () => {
           <option value="en">EN</option>
           <option value="it">IT</option>
         </select>
-        <button className="menu-toggle d-lg-none" onClick={toggleMenu}>
+        <button
+          className="menu-toggle d-lg-none icon-button"
+          onClick={toggleMenu}
+        >
           {isMenuOpen ? <X size={30} /> : <Menu size={30} />}
         </button>
       </div>
