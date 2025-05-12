@@ -17,7 +17,7 @@
 
 .x {
   position: fixed;
-  top: 4rem;
+  top: 3rem;
   right: 2rem;
 }
 @media (max-width: 991px) {
