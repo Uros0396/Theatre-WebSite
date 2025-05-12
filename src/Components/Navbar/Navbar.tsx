@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
           className="menu-toggle d-lg-none icon-button"
           onClick={toggleMenu}
         >
-          {isMenuOpen ? <X size={30} /> : <Menu size={30} />}
+          {isMenuOpen ? <X size={30} className="x" /> : <Menu size={30} />}
         </button>
       </div>
 

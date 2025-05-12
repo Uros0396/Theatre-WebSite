@@ -11,9 +11,14 @@
 }
 
 .icon-button {
-  position: fixed;
   top: 1rem;
   right: 0;
+}
+
+.x {
+  position: fixed;
+  top: 3rem;
+  right: 2rem;
 }
 @media (max-width: 991px) {
   .navbar-container {
