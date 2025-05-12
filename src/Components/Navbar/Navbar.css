@@ -11,13 +11,13 @@
 }
 
 .icon-button {
-  top: 2rem;
+  top: 3rem;
   right: 0;
 }
 
 .x {
   position: fixed;
-  top: 3rem;
+  top: 4rem;
   right: 2rem;
 }
 @media (max-width: 991px) {
