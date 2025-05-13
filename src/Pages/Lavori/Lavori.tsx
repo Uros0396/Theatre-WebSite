@@ -48,7 +48,7 @@ const Lavori: React.FC = () => {
               {" "}
               <img
                 src="https://res.cloudinary.com/dhoq8vx2k/image/upload/f_auto,q_auto,w_1000,c_fill,g_auto/v1747126798/ROBOTLIFE/2.png"
-                alt="Robotic Life"
+                alt=""
                 loading="lazy"
               />
               <div className="mt-4">
