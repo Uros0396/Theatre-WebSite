@@ -10,7 +10,6 @@ a {
   margin-top: 15px;
 }
 
-/* Stile mobile */
 @media (max-width: 991px) {
   .contatti {
     display: flex;
@@ -20,7 +19,6 @@ a {
     padding: 10px;
   }
 
-  /* Entrambi i blocchi diventano full width */
   .contatti > div {
     width: 100% !important;
     margin: 0 !important;

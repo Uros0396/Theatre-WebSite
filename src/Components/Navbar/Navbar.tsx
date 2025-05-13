@@ -40,6 +40,7 @@ const Navbar: React.FC = () => {
         <button
           className="menu-toggle d-lg-none icon-button"
           onClick={toggleMenu}
+          aria-label={isMenuOpen ? "Chiudi menu" : "Apri menu"}
         >
           {isMenuOpen ? <X size={30} className="x" /> : <Menu size={30} />}
         </button>

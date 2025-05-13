@@ -37,6 +37,12 @@ hr {
   }
 }
 
+@media (min-width: 1600px) {
+  .container-fluid {
+    max-width: 1400px;
+  }
+}
+
 body {
   overflow-x: hidden;
 }
