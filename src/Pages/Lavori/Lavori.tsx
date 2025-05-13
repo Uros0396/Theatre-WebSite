@@ -25,8 +25,8 @@ const Lavori: React.FC = () => {
           <div className="col-sm-12 col-md-5 col-lg-5 p-2 lavori-image">
             <div className="ps-5">
               <img
-                src="https://res.cloudinary.com/dhoq8vx2k/image/upload/f_auto,q_auto,w_1000,c_fill,g_auto/v1747126786/ROBOTLIFE/1.png"
-                alt="Robotic Life"
+                src="https://res.cloudinary.com/dhoq8vx2k/image/upload/f_auto,q_auto,w_1000,c_fill,g_auto/v1747150076/ROBOTLIFE/1.png"
+                alt="ROBOTLIFE Image"
                 loading="lazy"
               />
 
