@@ -2,3 +2,10 @@
   max-height: 28rem;
   width: 8rem;
 }
+
+@media (max-width: 991px) {
+  .img-homepage {
+    max-height: 24rem;
+    width: auto;
+  }
+}

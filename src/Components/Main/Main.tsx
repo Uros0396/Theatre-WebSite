@@ -4,7 +4,7 @@ import "./Main.css";
 const Main: React.FC = () => {
   return (
     <main className="row mt-5 pt-2">
-      <div className="col-lg-12 d-flex justify-content-center mt-5  pb-5">
+      <div className="col-lg-12 d-flex justify-content-center mt-5  pb-2">
         <img src={logo} alt="homepage-logo-image" className="img-homepage" />
       </div>
     </main>
