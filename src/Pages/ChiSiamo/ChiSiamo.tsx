@@ -15,9 +15,10 @@ const ChiSiamo: React.FC = () => {
 
       <div className="img-wrapper-chi-siamo mt-4">
         <img
-          src={ChiSiamoImage}
+          src="https://res.cloudinary.com/dhoq8vx2k/image/upload/f_auto,q_auto,w_1000,c_fill,g_auto/v1747126714/ROBOTLIFE/about.png"
           alt="chi-siamo-image"
           className="img-chi-siamo"
+          loading="lazy"
         />
       </div>
 
