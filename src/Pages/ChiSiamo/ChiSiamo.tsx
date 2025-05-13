@@ -48,7 +48,10 @@ const ChiSiamo: React.FC = () => {
               <hr />
             </div>
 
-            <p dangerouslySetInnerHTML={{ __html: t("about.paragraph5") }}></p>
+            <p
+              className="mt-1"
+              dangerouslySetInnerHTML={{ __html: t("about.paragraph5") }}
+            ></p>
             <div className="div-timeline">
               <span className="timeline">4</span>
               <hr />
