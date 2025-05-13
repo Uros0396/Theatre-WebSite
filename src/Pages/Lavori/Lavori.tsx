@@ -1,9 +1,9 @@
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
-import LavoriImage1 from "../../assets/1. WORKS HAILSHAM.png";
-import LavoriImage2 from "../../assets/2. WORKS CARMEN.png";
-import LavoriImage3 from "../../assets/3. WORKS LIBERTà.png";
-import LavoriImage4 from "../../assets/4. WORKS CUCINA.png";
+//import LavoriImage1 from "../../assets/1. WORKS HAILSHAM.png";
+//import LavoriImage2 from "../../assets/2. WORKS CARMEN.png";
+//import LavoriImage3 from "../../assets/3. WORKS LIBERTà.png";
+//import LavoriImage4 from "../../assets/4. WORKS CUCINA.png";
 import "./Lavori.css";
 import { useTranslation } from "react-i18next";
 
@@ -25,10 +25,11 @@ const Lavori: React.FC = () => {
           <div className="col-sm-12 col-md-5 col-lg-5 p-2 lavori-image">
             <div className="ps-5">
               <img
-                src={LavoriImage1}
-                alt="immagine-locandina1"
-                className="img-top"
+                src="https://res.cloudinary.com/dhoq8vx2k/image/upload/f_auto,q_auto,w_1000,c_fill,g_auto/v1747126786/ROBOTLIFE/1.png"
+                alt="Robotic Life"
+                loading="lazy"
               />
+
               <div className="mt-4">
                 <h6
                   dangerouslySetInnerHTML={{ __html: t("works.title2") }}
@@ -46,9 +47,9 @@ const Lavori: React.FC = () => {
             <div className="ps-5">
               {" "}
               <img
-                src={LavoriImage2}
-                alt="immagine-locandina2"
-                className="img-top"
+                src="https://res.cloudinary.com/dhoq8vx2k/image/upload/f_auto,q_auto,w_1000,c_fill,g_auto/v1747126798/ROBOTLIFE/2.png"
+                alt="Robotic Life"
+                loading="lazy"
               />
               <div className="mt-4">
                 <h6
@@ -70,10 +71,11 @@ const Lavori: React.FC = () => {
           <div className="col-sm-12 col-md-6 col-lg-5 pt-2 lavori-image">
             <div className="ps-5">
               <img
-                src={LavoriImage3}
-                alt="immagine-locandina3"
-                className="img-top"
+                src="https://res.cloudinary.com/dhoq8vx2k/image/upload/f_auto,q_auto,w_1000,c_fill,g_auto/v1747126811/ROBOTLIFE/3.png"
+                alt="LIBERTA' LOCANDINA DI OPERE"
+                loading="lazy"
               />
+
               <div className="mt-4">
                 <h6
                   dangerouslySetInnerHTML={{ __html: t("works.title4") }}
@@ -91,12 +93,12 @@ const Lavori: React.FC = () => {
 
           <div className="col-sm-12 col-md-6 col-lg-5 p-2 lavori-image">
             <div className="ps-5">
-              {" "}
               <img
-                src={LavoriImage4}
-                alt="immagine-locandina4"
-                className="img-top"
+                src="https://res.cloudinary.com/dhoq8vx2k/image/upload/f_auto,q_auto,w_1000,c_fill,g_auto/v1747126826/ROBOTLIFE/4.png"
+                alt="Robotic Life"
+                loading="lazy"
               />
+
               <div className="mt-4">
                 <h6
                   dangerouslySetInnerHTML={{ __html: t("works.title5") }}

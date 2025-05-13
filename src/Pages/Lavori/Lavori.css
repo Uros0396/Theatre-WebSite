@@ -1,12 +1,11 @@
-.lavori-image img {
-  max-width: 400px;
-  max-height: auto;
-  object-fit: contain;
-}
-
 @media (min-width: 992px) {
   .lavori-image {
     margin-left: 3rem;
+  }
+
+  .lavori-image img {
+    max-width: 400px;
+    height: 300px;
   }
 }
 
