@@ -32,6 +32,8 @@ hr {
   hr {
     width: 110%;
     left: -14%;
+    margin: 0;
+    padding: 0;
   }
 }
 
