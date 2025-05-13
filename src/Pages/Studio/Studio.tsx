@@ -1,5 +1,5 @@
 import Navbar from "../../Components/Navbar/Navbar";
-import StudioImage from "../../assets/1. STUDIO BANNER.png";
+
 import Footer from "../../Components/Footer/Footer";
 import "./Studio.css";
 import { useTranslation } from "react-i18next";
@@ -13,7 +13,12 @@ const Studio: React.FC = () => {
       </div>
 
       <div className="img-wrapper-chi-siamo mt-4">
-        <img src={StudioImage} alt="chi-siamo-image" className="img-studio" />
+        <img
+          src="https://res.cloudinary.com/dhoq8vx2k/image/upload/f_auto,q_auto,c_fill,g_auto/v1747130201/ROBOTLIFE/1.png"
+          alt="chi-siamo-image"
+          className="img-studio"
+          loading="lazy"
+        />
       </div>
 
       <div className="container-fluid">

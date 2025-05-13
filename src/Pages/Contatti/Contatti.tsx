@@ -1,6 +1,6 @@
 import Navbar from "../../Components/Navbar/Navbar";
 import "./Contatti.css";
-import ContactsImage from "../../assets/5. FIORE CONTATTI.png";
+
 import Footer from "../../Components/Footer/Footer";
 import { useTranslation } from "react-i18next";
 
@@ -57,9 +57,10 @@ const Contatti: React.FC = () => {
             </div>
             <div className="text-center mt-5 immagine">
               <img
-                src={ContactsImage}
+                src="https://res.cloudinary.com/dhoq8vx2k/image/upload/f_auto,q_auto,w_1000,c_fill,g_auto/v1747126731/ROBOTLIFE/5.png"
                 alt="chi-siamo-image"
                 className="image-contacts"
+                loading="lazy"
               />
             </div>
           </div>

@@ -1,6 +1,5 @@
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
-import ChiSiamoImage from "../../assets/about.png";
 import "./ChiSiamo.css";
 import { useTranslation } from "react-i18next";
 

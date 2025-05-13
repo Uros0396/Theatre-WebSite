@@ -1,5 +1,5 @@
 import Navbar from "../../Components/Navbar/Navbar";
-import AureImage from "../../assets/4. AURE BANNER.png";
+
 import Footer from "../../Components/Footer/Footer";
 import "./Aure.css";
 import { useTranslation } from "react-i18next";
@@ -13,7 +13,12 @@ const Aure: React.FC = () => {
       </div>
 
       <div className="img-wrapper-chi-siamo mt-4">
-        <img src={AureImage} alt="chi-siamo-image" className="img-chi-siamo" />
+        <img
+          src="https://res.cloudinary.com/dhoq8vx2k/image/upload/f_auto,q_auto,w_1000,c_fill,g_auto/v1747130176/ROBOTLIFE/4.png"
+          alt="chi-siamo-image"
+          className="img-chi-siamo"
+          loading="lazy"
+        />
       </div>
 
       <div className="container-fluid">
